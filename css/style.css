@@ -545,7 +545,7 @@ mark {
 .table .table {
   background-color: #fff;
 }
-.btn {
+/* .btn {
   display: inline-block;
   font-weight: 400;
   text-align: center;
@@ -579,7 +579,7 @@ mark {
 .btn:not([disabled]):not(.disabled).active,
 .btn:not([disabled]):not(.disabled):active {
   background-image: none;
-}
+} */
 a.btn.disabled,
 fieldset[disabled] a.btn {
   pointer-events: none;
@@ -1082,6 +1082,14 @@ button.swiper-pagination-bullet {
   z-index: -1000;
 }
 
-.menu{
-  
+.msg{
+   padding-top:30px;
+}
+
+.event-image img{
+  border-radius: 30px 30px 30px 30px;
+  height: auto;
+  max-width: 100%;
+  border: none;
+  box-shadow: none;
 }
