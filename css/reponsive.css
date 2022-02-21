@@ -1884,6 +1884,7 @@ ul.tabs-nav .tab-nav.active {
   min-width: 160px;
   box-shadow: 0px 8px 16px 0px rgba(255, 66, 0.2);
   z-index: 1;
+  box-sizing: border-box;
 }
 
 .dropdown-content a {
@@ -1891,6 +1892,7 @@ ul.tabs-nav .tab-nav.active {
   padding:10px !important;
   text-decoration: none;
   display: block;
+  box-sizing: border-box;
   color: #fff !important;
 }
 
