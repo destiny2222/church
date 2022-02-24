@@ -900,7 +900,7 @@ ul.tabs-nav .tab-nav.active {
   color: #929191;
 }
 .cause-wrap .fund-raised {
-  margin-top: 64px;
+  /* margin-top: 64px; */
 }
 .fund-raised-details {
   font-size: 14px;
@@ -951,7 +951,11 @@ ul.tabs-nav .tab-nav.active {
   margin-top: 20px;
 }
 .our-causes .cause-wrap .fund-raised {
-  margin-top: 48px;
+  /* margin-top: 48px; */
+}
+
+a:hover{
+   text-decoration: none;
 }
 .our-causes .swiper-button-next,
 .our-causes .swiper-button-prev {
@@ -1877,6 +1881,12 @@ ul.tabs-nav .tab-nav.active {
   display: inline-block;
 }
 
+@media screen and (max-width:768px) {
+   .dropdown-content{
+      overflow-x: scroll;
+   }
+}
+
 .dropdown-content {
   display: none;
   position: absolute;
@@ -1885,6 +1895,7 @@ ul.tabs-nav .tab-nav.active {
   box-shadow: 0px 8px 16px 0px rgba(255, 66, 0.2);
   z-index: 1;
   box-sizing: border-box;
+ 
 }
 
 .dropdown-content a {
